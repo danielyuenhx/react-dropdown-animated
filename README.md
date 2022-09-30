@@ -6,7 +6,7 @@ A customizable dropdown menu button with simple animations for React. For those 
 ## Installation
 
 ```bash
-npm install react-animated-dropdown-button
+npm install react-dropdown-animated
 ```
 
 ## Usage
@@ -38,9 +38,9 @@ Check out the component and help development with
 ```bash
 git clone https://github.com/danielyuenhx/react-dropdown-animated.git
 cd react-dropdown-animated
-```
-
-```bash
 npm install
+
+Start the development server with
+``
 npm start
 ```

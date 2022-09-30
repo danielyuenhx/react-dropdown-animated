@@ -14,7 +14,9 @@
     "react",
     "animated",
     "dropdown",
-    "button"
+    "button",
+    "dropdown-menu",
+    "dropdown-button"
   ],
   "author": "Daniel Yuen",
   "license": "ISC",
