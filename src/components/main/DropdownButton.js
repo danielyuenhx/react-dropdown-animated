@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 
-import DropdownIcon from './DropdownIcon';
+import DropdownIcon from '../DropdownIcon';
 import './style.css';
-import DropdownOptions from './DropdownOptions';
+import DropdownOptions from '../DropdownOptions';
 
 const DropdownButton = ({
 	content = 'Dropdown button',

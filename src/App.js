@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
-import DropdownButton from './components/DropdownButton';
+import DropdownButton from './components/main/DropdownButton';
 
 let option = 2;
 
