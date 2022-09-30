@@ -56,7 +56,7 @@ const DropdownButton = ({
 				document.removeEventListener('mouseup', clickOutsideHandler);
 			};
 		}
-	}, [buttonRef]);
+	}, [buttonRef, closeOnOutsideClick]);
 
 	return (
 		<div
