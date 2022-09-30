@@ -2,7 +2,7 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 
-const DropdownOptions = ({ options, initial=50, exit=25 }) => {
+const DropdownOptions = ({ options, initial, exit }) => {
 	return (
 		<motion.div
 			initial={{ opacity: 0, y: `-${initial}%` }}

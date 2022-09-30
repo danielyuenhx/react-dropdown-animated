@@ -52,7 +52,7 @@ function App() {
 			}}
 		>
 			<DropdownButton
-				content={buttonValue ? buttonValue : 'My Button'}
+				value={buttonValue ? buttonValue : 'My Button'}
 				options={options}
 			/>
 			<div style={{display: 'flex', flexDirection: 'column'}}>
