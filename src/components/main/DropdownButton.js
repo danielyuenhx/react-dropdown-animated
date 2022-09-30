@@ -26,6 +26,7 @@ const DropdownButton = ({
 	buttonFontColor = '#ffffff',
 	buttonBackgroundColor = '#227fe3',
 	buttonOutlineColor = '#8080808a',
+    buttonBorderRadius = '4',
 	closeOnOutsideClick = true,
 }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -71,6 +72,7 @@ const DropdownButton = ({
 					color: buttonFontColor,
 					backgroundColor: buttonBackgroundColor,
 					outlineColor: buttonOutlineColor,
+                    borderRadius: `${buttonBorderRadius}px`,
 				}}
 			>
 				<p>{value}</p>
