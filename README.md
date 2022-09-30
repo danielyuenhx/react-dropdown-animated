@@ -1,6 +1,8 @@
 # react-animated-dropdown-button
 A customizable dropdown button with simple animations for React. For those who like a little movment on your React app add a little spice.
 
+![Alt Text](./public/demo.gif)
+
 ## Installation
 
 ```bash
@@ -8,7 +10,7 @@ npm install react-animated-dropdown-button
 ```
 
 ## Usage
-Default styling can be used with the component by including the [style.css file](./style.css) with
+Default styling can be used with the component by including the [style.css file](.src/components/main/style.css) with
 
 ```javascript
 import "react-animated-dropdown-button/style.css"
