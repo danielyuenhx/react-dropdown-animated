@@ -10,10 +10,10 @@ npm install react-dropdown-animated
 ```
 
 ## Usage
-Default styling can be used with the component by including the [style.css file](.src/components/main/style.css) with
+Default styling of the component can be overridden. Component can be imported using
 
 ```javascript
-import "react-dropdown-animated/style.css"
+import Dropdown from "react-dropdown-animated"
 ```
 
 ## Props
@@ -39,8 +39,9 @@ Check out the component and help development with
 git clone https://github.com/danielyuenhx/react-dropdown-animated.git
 cd react-dropdown-animated
 npm install
+```
 
 Start the development server with
-``
+```bash
 npm start
 ```
