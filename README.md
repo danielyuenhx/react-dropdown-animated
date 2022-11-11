@@ -45,3 +45,5 @@ Start the development server with
 ```bash
 npm start
 ```
+
+npm page: https://www.npmjs.com/package/react-dropdown-animated
